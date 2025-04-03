@@ -11,7 +11,7 @@ exports.getLogin = (req, res, next) => {
   res.render("auth/login", {
     path: "/login",
     pageTitle: "Login",
-    errorMassage: message,
+    errorMessage: message,
   });
 };
 
@@ -25,7 +25,7 @@ exports.getSignup = (req, res, next) => {
   res.render("auth/signup", {
     path: "/signup",
     pageTitle: "Signup",
-    errorMassage: message,
+    errorMessage: message,
   });
 };
 
